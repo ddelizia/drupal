@@ -1,0 +1,55 @@
+<?php
+/**
+ * Implements hook_help().
+ *
+ *
+ * @param $path
+ * @param $arg
+ */
+function core_help($path, $arg) {
+
+    switch ($path) {
+        case "admin/help#core":
+            return '<p>' . t("Core module. Manage your configuration on this module") . '</p>';
+            break;
+    }
+}
+
+
+function core_enable(){
+    $roleService = RoleService::getInstance();
+    $roleService .addUser('editor', array(
+        'administer blocks' => TRUE, // Grant permission
+        'access dashboard' => FALSE, // Revoke permission
+    ));
+}
+
+function core_disable(){
+    user_role_delete('editor');
+}
+
+class RoleService {
+
+    protected static $instance = NULL;
+
+    //protected function __construct() { }
+
+    public static function getInstance() {
+        if (!isset(static::$instance)) {
+            static::$instance = new static();
+        }
+        return static::$instance;
+    }
+
+    function addUser($userName, $permissions){
+        $role = new stdClass();
+        $role->name = $userName;
+        user_role_save($role);
+
+        $roleDb = user_role_load_by_name('editor');
+        $rolRid = $roleDb->rid;
+
+        user_role_change_permissions($rolRid, $permissions);
+
+    }
+}

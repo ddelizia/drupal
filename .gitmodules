@@ -1,0 +1,41 @@
+[submodule "sites/all/modules/og"]
+	path = sites/all/modules/og
+	url = https://github.com/Gizra/og
+[submodule "sites/all/modules/views"]
+	path = sites/all/modules/views
+	url = http://git.drupal.org/project/views.git
+	branch = 7.x-3.x
+[submodule "sites/all/modules/entity"]
+	path = sites/all/modules/entity
+	url = http://git.drupal.org/project/entity.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/entityreference"]
+	path = sites/all/modules/entityreference
+	url = http://git.drupal.org/project/entityreference.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/ctools"]
+	path = sites/all/modules/ctools
+	url = http://git.drupal.org/project/ctools.git
+[submodule "sites/all/modules/views_bulk_operations"]
+	path = sites/all/modules/views_bulk_operations
+	url = http://git.drupal.org/project/views_bulk_operations.git
+	branch = 7.x-3.x
+[submodule "sites/all/themes/bootstrap"]
+	path = sites/all/themes/bootstrap
+	url = http://git.drupal.org/project/bootstrap.git
+	branch = 7.x-3.x
+[submodule "sites/all/modules/token"]
+	path = sites/all/modules/token
+	url = http://git.drupal.org/project/token.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/module_filter"]
+	path = sites/all/modules/module_filter
+	url = http://git.drupal.org/project/module_filter.git
+	branch = 7.x-2.x
+[submodule "sites/all/modules/panels"]
+	path = sites/all/modules/panels
+	url = http://git.drupal.org/project/panels.git
+	branch = 7.x-3.x
+[submodule "sites/all/modules/i18n"]
+	path = sites/all/modules/i18n
+	url = http://git.drupal.org/project/i18n.git

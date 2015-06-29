@@ -1,0 +1,7 @@
+name = Core
+description = Core Project
+core = 7.x
+
+files[] = includes/RoleService.php
+
+# dependencies[] =
