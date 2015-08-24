@@ -17,6 +17,7 @@
 [submodule "sites/all/modules/ctools"]
 	path = sites/all/modules/ctools
 	url = http://git.drupal.org/project/ctools.git
+	branch = 7.x-1.x
 [submodule "sites/all/modules/views_bulk_operations"]
 	path = sites/all/modules/views_bulk_operations
 	url = http://git.drupal.org/project/views_bulk_operations.git
