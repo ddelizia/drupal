@@ -1,6 +1,7 @@
 [submodule "sites/all/modules/og"]
 	path = sites/all/modules/og
-	url = https://github.com/Gizra/og
+	url = http://git.drupal.org/project/og.git
+	branch = 7.x-2.x
 [submodule "sites/all/modules/views"]
 	path = sites/all/modules/views
 	url = http://git.drupal.org/project/views.git
@@ -50,4 +51,8 @@
 [submodule "sites/all/modules/search_api"]
 	path = sites/all/modules/search_api
 	url = http://git.drupal.org/project/search_api.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/devel"]
+	path = sites/all/modules/devel
+	url = http://git.drupal.org/project/devel.git
 	branch = 7.x-1.x
