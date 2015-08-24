@@ -39,3 +39,15 @@
 [submodule "sites/all/modules/i18n"]
 	path = sites/all/modules/i18n
 	url = http://git.drupal.org/project/i18n.git
+[submodule "sites/all/modules/facetapi"]
+	path = sites/all/modules/facetapi
+	url = http://git.drupal.org/project/facetapi.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/search_api_solr"]
+	path = sites/all/modules/search_api_solr
+	url = http://git.drupal.org/project/search_api_solr.git
+	branch = 7.x-1.x
+[submodule "sites/all/modules/search_api"]
+	path = sites/all/modules/search_api
+	url = http://git.drupal.org/project/search_api.git
+	branch = 7.x-1.x
